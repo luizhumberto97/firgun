@@ -124,7 +124,7 @@ export default function Home() {
     <Container>
       <Content>
         <header>
-          <h1>Formulario para requisitar crédito</h1>
+          <h1>Cadastrar pedido de crédito</h1>
         </header>
         <Form onSubmit={handleSubmit} initialData={client}>
           <label htmlFor="first_name" style={{ gridArea: 1 }}>

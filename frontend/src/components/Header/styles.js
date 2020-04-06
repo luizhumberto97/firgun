@@ -62,6 +62,12 @@ export const Container = styled.div`
         text-align: center;
         color: #fff;
         font-weight: bold;
+        transition: all 0.4s ease;
+
+        &:hover {
+            background: #fff;
+            color: #000;
+          }
       }
     }
   }

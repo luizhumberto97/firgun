@@ -31,13 +31,19 @@ export const Container = styled.main`
       background: #fff;
       color: #fff;
 
+      h4 {
+        color: #ff4836;
+        text-align: center;
+      }
+
       tr {
         height: 35px;
         line-height: 35px;
         transition: all 0.2s ease;
+        font-weight: bold;
 
         &:hover {
-          background: #676aeb;
+          background: rgba(103, 106, 235, 0.7);
           color: #fff;
         }
 
